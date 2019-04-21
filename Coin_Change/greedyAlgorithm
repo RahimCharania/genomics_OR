@@ -1,0 +1,7 @@
+GreedyChange(money)    
+        change ← empty collection of coins)
+        while money > 0
+            coin ← largest denomination that is less than or equal to money
+            add a coin with denomination coin to the collection of coins change
+            money ← money − coin
+        return change
