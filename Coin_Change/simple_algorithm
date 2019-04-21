@@ -1,0 +1,25 @@
+input:
+- SUM
+- COIN denominations
+
+output:
+minimum coins to provide that change
+
+constraints:
+money<=20000
+0<=coins<=7
+1<= value of coin <=100
+
+
+
+algorithm:
+
+Array(max size 7) -> take coin denominations(b/w 1-100) as input
+Int(max size 20000) -> take sum as input
+
+Function(min change)
+{
+Calculate possibilities
+Calc. minimum of possi.
+}
+
