@@ -1,0 +1,12 @@
+    DPChange(money, Coins)
+     MinNumCoins(0) ← 0
+     for m ← 1 to money
+        MinNumCoins(m) ← ∞
+            for i ← 1 to |Coins|
+                if m ≥ coini
+                    if MinNumCoins(m - coini) + 1 < MinNumCoins(m)
+                        MinNumCoins(m) ← MinNumCoins(m - coini) + 1
+    output MinNumCoins(money)
+
+
+runtime O(money*Coins)
