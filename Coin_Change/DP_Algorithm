@@ -10,3 +10,9 @@
 
 
 runtime O(money*Coins)
+
+
+//mods of DPChange.
+
+If money = 10^9, DPChange requires a huge array of size 10^9. Modify the DPChange algorithm so that the array size required does not exceed the value of the largest coin denomination.
+Recall that our original goal was to make change, not just compute MinNumCoins(money). Modify DPChange so that it not only computes the minimum number of coins but also returns these coins.
